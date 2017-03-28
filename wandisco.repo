@@ -1,0 +1,13 @@
+[wandisco-svn]
+name=Wandisco SVN Repo
+baseurl=http://opensource.wandisco.com/centos/$releasever/svn-1.8/RPMS/$basearch/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-WANdisco
+
+[wandisco-git]
+name=WANdisco GIT Repo
+baseurl=http://opensource.wandisco.com/centos/$releasever/git/$basearch/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-WANdisco
